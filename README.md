@@ -1,65 +1,59 @@
-# KPPMCH Service Hub
+# Hospital Service Hub (Digital Gateway)
 
-| PROJECT ARCHITECTURE & GATEWAY STRATEGY |
-| :--- |
-| **Healthcare Digital Gateway & Information Architecture** |
-| ![System Screenshot](https://kppmch-service.vercel.app/og-image.png) |
+This project is a "Digital Front Door" for the hospital. It gathers all medical services and information into one easy-to-use website, helping patients find what they need without confusion.
 
 ---
 
-| CLINICAL STRATEGY & REQUIREMENTS | | |
+### 1. How this project helps (Results)
+I built this hub to make it easier for patients to find hospital services and to help staff manage information better.
+
+| Current Problem | My Solution | Result for Patient & Hospital |
 | :--- | :--- | :--- |
-| **Requirement Source** | **Clinical Target** | **Architectural Outcome** |
-| **Senior Nursing Staff** | Centralized Navigation | Unified portal for all medical services to reduce patient confusion. |
-| **Quality Management** | High System Availability | **Hybrid Rendering (SSG + ISR)** ensuring the hub is always online. |
-| **Nursing Leadership** | Information Integrity | AI-assisted validation for accurate service mapping and resource routing. |
+| **Confusing Navigation** | Central Service Hub | Patients find the right clinic faster |
+| **Slow Website Loading** | High-Performance Design | Works well even with a weak phone signal |
+| **Outdated Information** | Smart Update System | Healthcare info is always current and accurate |
+| **Hard to Find Links** | All-in-One Portal | One single link for every hospital service |
 
 ---
 
-| 1. TECHNICAL STACK (CORE INFRASTRUCTURE) | | |
+### 2. How the system works (Simple Design)
+The system is built to be fast, stable, and easy to use on any mobile phone.
+
+| Part | Simple Explanation | Main Benefit |
 | :--- | :--- | :--- |
-| **Category** | **Specification** | **Architectural Role** |
-| **Framework** | Next.js (App Router) | Modern structure supporting server-side logic and fast navigation. |
-| **Language** | JavaScript (ES6+) | Standardized logic for clean and maintainable codebase. |
-| **Styling** | Custom CSS | Responsive Design optimized for hospital-grade mobile devices. |
-| **Deployment** | Vercel (CI/CD) | Continuous Deployment pipeline for rapid clinical updates. |
+| **Website Structure** | Modern Web Tools | Smooth and fast movement between pages |
+| **Smart Loading** | Background Data Sync | The site stays updated without slowing down |
+| **Mobile Ready** | Flexible Design | Looks and works great on any smartphone |
+| **Easy Management** | Organized Code | Staff can add new clinic departments easily |
 
 ---
 
-| 2. SYSTEM ARCHITECTURE DETAILS | | |
-| :--- | :--- | :--- |
-| **Component** | **Technical Implementation** | **Impact on Operations** |
-| **Rendering** | SSG + ISR Hybrid | Instant page loads with background data updates every minute. |
-| **Components** | Server Components | Minimal JS bundle size for fast loading in areas with low signal. |
-| **Routing** | Dynamic Route Handlers | Scalable architecture to add new medical departments easily. |
-| **Integration** | RESTful Mapping | Seamless link between user interface and hospital backend systems. |
-
----
-
-| 3. ENGINEERING FOCUS & SYSTEM INTEGRITY | | |
-| :--- | :--- | :--- |
-| **Feature** | **Focus Area** | **Key Benefit** |
-| **Data Gateway** | Centralization | Aggregates distributed medical resources into one access point. |
-| **Performance** | Web Vitals | Optimized for SEO and accessibility (Screen readers/Mobile). |
-| **Architecture** | Modularity | Modular code allows for safe updates without system downtime. |
-| **Quality** | AI-Assisted Logic | Automated validation for routing accuracy and code health. |
-
----
-
-| 4. LOCAL DEVELOPMENT & SETUP | |
+### 3. Safety and Reliability
+| Standard | Implementation Detail |
 | :--- | :--- |
-| **Phase** | **Command / Link** |
-| **Repository** | `git clone https://github.com/ratchanon-noknoy2318/hospital-service-hub.git` |
-| **Installation** | `npm install` |
-| **Execution** | `npm run dev` |
-| **Build** | `npm run build` |
+| **Nurse Verified** | Created using requirements from Senior Nursing Leaders |
+| **Accuracy** | Uses smart logic to send patients to the right department |
+| **Accessibility** | Designed to be easy to read for the elderly |
+| **Stability** | Built on professional systems to prevent website crashes |
 
 ---
 
-| 5. CONTACT & PROFESSIONAL PROFILE | |
+### 4. Technical Setup (For Developers)
+| Task | Command |
+| :--- | :--- |
+| **Copy Project** | `git clone [repository-link]` |
+| **Install Tools** | `npm install` |
+| **Start System** | `npm run dev` |
+
+---
+
+### 5. Contact Information
+| Category | Detail |
 | :--- | :--- |
 | **Lead Developer** | Ratchanon Noknoy |
-| **Project Role** | Full-stack Architect in Collaboration with Clinical Experts |
-| **LinkedIn** | [linkedin.com/in/ratchanon-noknoy/](https://www.linkedin.com/in/ratchanon-noknoy/) |
-| **GitHub** | [github.com/ratchanon-noknoy2318](https://github.com/ratchanon-noknoy2318) |
-| **License** | MIT © 2026 |
+| **Project Role** | Full-stack Developer working with Healthcare Experts |
+| **LinkedIn** | [Professional Profile](https://www.linkedin.com/in/ratchanon-noknoy/) |
+| **GitHub** | [Technical Portfolio](https://github.com/ratchanon-noknoy2318) |
+
+---
+**Note:** This hub serves as the main digital entrance for hospital services, focusing on being user-friendly and providing fast access to care.
